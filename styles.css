@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333; /* 기본 텍스트 색상 */
+    color: #333333; /* 기본 텍스트 색상을 짙은 회색으로 설정 */
 }
 
 header {
@@ -17,19 +17,19 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
-    color: #d1d1d1; /* 밝은 노란색으로 변경하여 눈에 띄게 */
+    color: #d1d1d1; /* 짙은 회색으로 변경 */
 }
 
 header .subtitle {
     font-size: 1.5rem;
-    color: #d1d1d1; /* 부제목도 동일하게 밝은 노란색으로 설정 */
+    color: #d1d1d1; /* 부제목도 동일하게 짙은 회색으로 설정 */
     margin-bottom: 10px;
 }
 
 header p {
     font-style: italic;
     margin: 0.5rem 0;
-    color: #d1d1d1; /* 기본 텍스트는 여전히 흰색 유지 */
+    color: #f5f5f5; /* 기본 텍스트는 밝은 흰색 유지 */
 }
 
 .profile-pic {
@@ -63,12 +63,12 @@ nav ul li a {
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 4px;
-    transition: background-color 0.3s ease; /* 부드러운 효과 추가 */
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #555555; /* 호버 시 조금 더 밝은 배경 */
-    text-decoration: none; /* 밑줄 없음 */
+    background-color: #555555; /* 호버 시 밝은 회색 */
+    text-decoration: none;
 }
 
 .container {
@@ -78,6 +78,7 @@ nav ul li a:hover {
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    color: #333333; /* 컨테이너 내의 기본 텍스트 색상도 짙은 회색 */
 }
 
 h2 {
