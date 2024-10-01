@@ -8,32 +8,20 @@ body {
 
 header {
     background-color: #4a4a4a; /* Dark gray background */
-    color: white;
-    padding: 3rem 0;
-    text-align: left;
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.profile-info {
-    max-width: 60%;
+    color: white; /* White text for contrast */
+    padding: 2rem 0;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: white;
+    color: white; /* White text on dark background */
 }
 
 header .subtitle {
     font-size: 1.2rem;
-    color: #ddd;
+    color: #ddd; /* Slightly lighter gray for subtitle */
     margin-bottom: 10px;
 }
 
@@ -42,31 +30,11 @@ header p {
     margin: 0.5rem 0;
 }
 
-.contact-links {
-    margin-top: 1rem;
-    font-size: 1.1rem;
-}
-
-.contact-links a {
-    color: #ddd;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.contact-links a:hover {
-    text-decoration: underline;
-}
-
-.profile-pic-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .profile-pic {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 nav {
