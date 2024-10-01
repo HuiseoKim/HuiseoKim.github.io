@@ -8,33 +8,38 @@ body {
 
 header {
     background-color: #4a4a4a; /* Dark gray background */
-    color: white; /* White text for contrast */
+    color: white;
     padding: 3rem 0;
-    text-align: center;
+    text-align: left;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile-info {
+    max-width: 60%;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: white; /* White text on dark background */
+    color: white;
 }
 
 header .subtitle {
     font-size: 1.2rem;
-    color: #ddd; /* Slightly lighter gray for subtitle */
+    color: #ddd;
     margin-bottom: 10px;
 }
 
 header p {
     font-style: italic;
     margin: 0.5rem 0;
-}
-
-.profile-pic-large {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
 }
 
 .contact-links {
@@ -50,6 +55,18 @@ header p {
 
 .contact-links a:hover {
     text-decoration: underline;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
 }
 
 nav {
