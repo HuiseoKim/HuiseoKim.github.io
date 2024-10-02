@@ -17,19 +17,19 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
-    color: #d1d1d1; /* 짙은 회색으로 변경 */
+    color: #333333; /* 짙은 회색으로 변경 */
 }
 
 header .subtitle {
     font-size: 1.5rem;
-    color: #d1d1d1; /* 부제목도 동일하게 짙은 회색으로 설정 */
+    color: #333333; /* 부제목도 동일하게 짙은 회색으로 설정 */
     margin-bottom: 10px;
 }
 
 header p {
     font-style: italic;
     margin: 0.5rem 0;
-    color: #f5f5f5; /* 기본 텍스트는 밝은 흰색 유지 */
+    color: #333333; /* 기본 텍스트는 밝은 흰색 유지 */
 }
 
 .profile-pic {
